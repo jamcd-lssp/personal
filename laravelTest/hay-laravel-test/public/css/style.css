@@ -1,0 +1,279 @@
+@charset 'UTF-8';
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+	line-height: 1.5;
+    margin: 0 auto;
+    font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+    background-color: #f8fafc;
+    border: 1px solid #000000e6;
+}
+.menu{
+    font-family: 'Meiryo';
+    color: #000000e6;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0px 1px 2px;
+}
+h1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 20px;
+    left: 3%;
+}
+h2{
+    border-left: 5px solid #38c172;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.user-check{
+    position: fixed;
+    right: 0;
+    top: 5px;
+    height: 60px;
+}
+.to-do-list{
+    width: 95%;
+    background-color: #fff;
+    border: 1px solid #accdceea;
+    border-radius: 0.25rem;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+.form#logout-form{
+    text-align: center;
+}
+.folder-task{
+    margin: 0 auto;
+}
+.list-groupe{
+    border: 1px solid #000;
+}
+li.folder-list{
+    font-size: 20px;
+    list-style: circle;
+    margin-left: 20px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.panel-body {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.task-edit{
+    width: 180px;
+    margin: 0 auto;
+}
+form.create{
+    width: 177px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-group{
+    margin: 0 auto;
+    text-align: left;
+}
+textarea[name='content']{
+    height: 100px;
+    width: 300px;
+}
+input[type='submit']{
+    width: 100px;
+    background-color: #fff;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    color: #000;
+    background-color: #ccc;
+    border-collapse: collapse;
+}
+th:nth-child(2){
+    width: 50px;
+}
+th:nth-child(3) {
+    width: 100px;
+}
+td{
+    text-align: center;
+    border-bottom: 1px solid #accdceea;
+    border-left: 1px solid #accdceea;
+    border-collapse: collapse;
+}
+.tasks{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.task-create{
+    margin: 0 auto;
+}
+.task-create-form{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    display: block;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.task-controll{
+    width: 50px;
+    background-color: #ccc;
+}
+.task-controll a{
+    color: #000;
+    text-decoration: none;
+}
+.task-controll a:hover{
+    text-decoration: underline;
+}
+span.label-denger{
+    background-color: #e3342f;
+    color: #fff;
+}
+span.label-info{
+    background-color: #38c172;
+    color: #fff;
+}
+.label{
+    background-color: #555;
+    color: #fff;
+}
+input[type='submit'].todo-delete{
+    width: 50px;
+    border-radius: 25px;
+    margin: 5px 0px;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
+.back-home{
+    text-align: center;
+    margin-top: 20px;
+}
